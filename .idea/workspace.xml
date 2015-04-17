@@ -17,7 +17,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.yiqingjing.activity" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e61e4e-f14d-4f32-af0b-ab5c226241eb" name="Default" comment="" />
+    <list default="true" id="68e61e4e-f14d-4f32-af0b-ab5c226241eb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yiqingjing/model/Sence.java" afterPath="$PROJECT_DIR$/src/com/yiqingjing/model/Sence.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="yiqingjing.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,8 +70,8 @@
       <file leaf-file-name="Sence.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yiqingjing/model/Sence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6890547" vertical-offset="2773" max-vertical-offset="4375">
-              <caret line="194" column="5" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.93781096" vertical-offset="3073" max-vertical-offset="4375">
+              <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -125,6 +128,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/yiqingjing/activity/fragment/ModelListFragment.java" />
         <option value="$PROJECT_DIR$/src/com/yiqingjing/activity/HomePageActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/yiqingjing/model/Sence.java" />
       </list>
     </option>
   </component>
@@ -536,6 +540,11 @@
       <created>1429235679237</created>
       <updated>1429235679237</updated>
     </task>
+    <task id="LOCAL-00001" summary="lei t">
+      <created>1429245688789</created>
+      <updated>1429245688789</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -604,6 +613,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="lei t" />
+    <option name="LAST_COMMIT_MESSAGE" value="lei t" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -749,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiqingjing/model/Sence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6890547" vertical-offset="2773" max-vertical-offset="4375">
-          <caret line="194" column="5" selection-start-line="194" selection-start-column="5" selection-end-line="194" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.93781096" vertical-offset="3073" max-vertical-offset="4375">
+          <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
           <folding />
         </state>
       </provider>
