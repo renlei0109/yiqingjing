@@ -17,10 +17,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: com.yiqingjing.activity" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68e61e4e-f14d-4f32-af0b-ab5c226241eb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/yiqingjing/model/Sence.java" afterPath="$PROJECT_DIR$/src/com/yiqingjing/model/Sence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="68e61e4e-f14d-4f32-af0b-ab5c226241eb" name="Default" comment="" />
     <ignored path="yiqingjing.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,8 +67,8 @@
       <file leaf-file-name="Sence.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/yiqingjing/model/Sence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.93781096" vertical-offset="3073" max-vertical-offset="4375">
-              <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.8134328" vertical-offset="3148" max-vertical-offset="4375">
+              <caret line="217" column="23" selection-start-line="217" selection-start-column="23" selection-end-line="217" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -760,8 +757,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/yiqingjing/model/Sence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93781096" vertical-offset="3073" max-vertical-offset="4375">
-          <caret line="216" column="16" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.8134328" vertical-offset="3148" max-vertical-offset="4375">
+          <caret line="217" column="23" selection-start-line="217" selection-start-column="23" selection-end-line="217" selection-end-column="23" />
           <folding />
         </state>
       </provider>
