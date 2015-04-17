@@ -177,7 +177,7 @@ public class Sence implements Serializable{
 		}else if(auto_rotate == 0){
 			return "关";
 		}else{
-			return "开";
+			return "开"; 
 		}
 	}
 	public void setAuto_rotate(int auto_rotate) {
