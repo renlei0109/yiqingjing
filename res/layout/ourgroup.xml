@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#4b4150" >
+    
+    <RelativeLayout 
+        android:layout_height="64dp"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_alignParentTop="true">
+        
+        <ImageButton 
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:src="@drawable/delete_selector"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/our_group_return"
+            android:background="#ffffff"/>
+        
+        <Button 
+            android:layout_height="48dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/our_group_background"
+            android:text="卡司阵营"
+            android:textSize="24sp"
+            android:textColor="#ff0000"
+            android:layout_centerInParent="true"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:gravity="center_vertical"/>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/header_one">
+        
+        <ImageView 
+            android:layout_height="86dp"
+            android:layout_width="86dp"
+            android:src="@drawable/header_li"
+            android:id="@+id/header_li"/>
+        
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="程序猿:李旺"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@id/header_li"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/header_li"
+            android:id="@+id/li_name"/>
+        
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="13478919974"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignBottom="@id/header_li"
+            android:layout_toRightOf="@id/header_li"
+            android:id="@+id/li_mobile"/>
+           
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/header_one"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/header_two">
+        
+        <ImageView 
+            android:layout_height="86dp"
+            android:layout_width="86dp"
+            android:src="@drawable/header_che"
+            android:id="@+id/header_che"/>
+        
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="产品狗:陈卓"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@id/header_che"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/header_che"
+            android:id="@+id/che_name"/>
+        
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="18840866865"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignBottom="@id/header_che"
+            android:layout_toRightOf="@id/header_che"
+            android:id="@+id/che_mobile"/>
+           
+    </RelativeLayout>
+    
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/header_one"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/header_three">
+        
+        <ImageView 
+            android:layout_height="86dp"
+            android:layout_width="86dp"
+            android:src="@drawable/header_he"
+            android:id="@+id/header_he"/>
+        
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="程序猿:何涌"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="28sp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@id/header_he"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@id/header_he"
+            android:id="@+id/he_name"/>
+        
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="18742513130"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignBottom="@id/header_he"
+            android:layout_toRightOf="@id/header_he"
+            android:id="@+id/he_mobile"/>
+           
+    </RelativeLayout>
+
+</RelativeLayout>

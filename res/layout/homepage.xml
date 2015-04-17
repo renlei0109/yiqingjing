@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <FrameLayout 
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/homepage_bottom"
+        android:id="@+id/homepage_main"/>
+    
+    <RelativeLayout 
+        android:id="@+id/homepage_bottom"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:background="#746c61"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        
+        <Button 
+            android:id="@+id/change_install"
+            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:background="@drawable/change_install_selected"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="32dp"/>
+        
+        <Button 
+            android:id="@+id/main_push"
+            android:layout_height="52dp"
+            android:layout_width="80dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/main_push_background"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="12dp"/>
+
+        <Button 
+            android:id="@+id/more_install"
+            android:layout_height="40dp"
+            android:layout_width="50dp"
+            android:background="@drawable/more_install_no_selected"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="32dp"/>
+        
+    </RelativeLayout>
+    
+</RelativeLayout>

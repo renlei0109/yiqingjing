@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    <RelativeLayout 
+        android:layout_height="68dp"
+        android:layout_width="match_parent"
+        android:background="#ffffff">
+        
+        <ImageButton 
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:src="@drawable/delete_selector"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/feedback_back"
+            android:background="#ffffff"/>
+        
+        <Button 
+            android:layout_height="48dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/our_group_background"
+            android:text="意见与反馈"
+            android:textSize="24sp"
+            android:textColor="#ff0000"
+            android:layout_centerInParent="true"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:gravity="center_vertical"/>
+        
+        <ImageView 
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/right_divider"
+            android:layout_alignParentBottom="true"/>
+        
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="12dp"
+        android:text="您希望改进的不足"
+        android:textSize="16sp" />
+    
+    <EditText 
+        android:id="@+id/modify"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/feedback_rectangler"
+        android:padding="12dp"
+        android:gravity="start"
+        android:textSize="16sp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="12dp"
+        android:text="您希望添加的功能"
+        android:textSize="16sp" />
+    
+    <EditText 
+        android:id="@+id/add"
+        android:padding="12dp"
+        android:gravity="start"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/feedback_rectangler"
+        android:textSize="16sp"/>
+    
+    <Button 
+        android:id="@+id/send"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginTop="44dp"
+        android:background="#ff0000"
+        android:text="发送"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textStyle="bold"/>
+    
+
+</LinearLayout>

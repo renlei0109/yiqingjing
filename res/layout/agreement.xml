@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:layout_height="64dp"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+       >
+        
+        <ImageButton 
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:src="@drawable/delete_selector"
+            android:layout_centerVertical="true"
+            android:id="@+id/agreement_return"
+            android:background="#ffffff"
+            android:layout_marginLeft="12dp"/>
+        
+        <Button 
+            android:layout_height="48dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/our_group_background"
+            android:text="使用帮助"
+            android:textSize="24sp"
+            android:textColor="#ff0000"
+            android:layout_centerInParent="true"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:gravity="center_vertical"/>
+        
+    </RelativeLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="不同手机不一样，下面以小米手机为例"/>
+    
+       <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/help0" />
+
+    <ImageView 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/help1"
+        />
+    <ImageView 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/help2"
+        />
+    <ImageView 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/help3"
+        />
+     <ImageView 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/help4"
+        />
+      <ImageView 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/help5"
+        />
+    </LinearLayout>
+     </ScrollView>
+     
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    <RelativeLayout 
+        android:layout_height="64dp"
+        android:layout_width="match_parent"
+        android:id="@+id/new_layout"
+        android:background="#ffffff"
+        android:layout_alignParentTop="true">
+        
+        <ImageButton 
+            android:layout_height="20dp"
+            android:layout_width="20dp"
+            android:src="@drawable/delete_selector"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:id="@+id/new_scene_back"
+            android:background="#ffffff"/>
+        
+        <Button 
+            android:layout_height="48dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/our_group_background"
+            android:text="新建模式"
+            android:textSize="24sp"
+            android:textColor="#ff0000"
+            android:layout_centerInParent="true"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:gravity="center_vertical"/>
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/new_layout"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:orientation="vertical">
+        
+        <RelativeLayout 
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:orientation="horizontal"
+	        android:id="@+id/normal_sence">
+	        <TextView 
+	            android:id="@+id/new_1"
+	            android:layout_height="wrap_content"
+	            android:layout_width="match_parent"
+	            android:text="普通模式"
+	            android:textStyle="bold"
+	            android:layout_gravity="center_vertical"
+	            android:textSize="24sp"
+	            android:paddingTop="10dp"
+	            android:layout_marginBottom="8dp"/>
+	        
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:layout_below="@id/new_1"
+	            android:text="手动更新您的情景模式"
+	            android:textSize="13sp"
+	            android:paddingBottom="10dp"
+	            android:textColor="#53868B"/>
+	
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="48dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/icon_arrow"
+	            android:layout_marginRight="16dp" />
+	    </RelativeLayout>
+	    <ImageView 
+	            android:layout_height="1dp"
+	            android:layout_width="match_parent"
+	            android:src="@drawable/right_divider"/>
+    
+	    <RelativeLayout 
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:orientation="horizontal"
+	        android:id="@+id/wlan_scene">
+	        <TextView 
+	            android:id="@+id/new_1"
+	            android:layout_height="wrap_content"
+	            android:layout_width="match_parent"
+	            android:text="WLAN模式"
+	            android:textStyle="bold"
+	            android:layout_gravity="center_vertical"
+	            android:textSize="24sp"
+	            android:paddingTop="10dp"
+	            android:layout_marginBottom="8dp"/>
+	        
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:layout_below="@id/new_1"
+	            android:text="根据您连入的WLAN网络自动更新您的情景模式"
+	            android:textSize="13sp"
+	            android:paddingBottom="10dp"
+	            android:textColor="#53868B"/>
+	
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="48dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/icon_arrow"
+	            android:layout_marginRight="16dp" />
+	    </RelativeLayout>
+	    <ImageView 
+	            android:layout_height="1dp"
+	            android:layout_width="match_parent"
+	            android:src="@drawable/right_divider"/>
+	    
+	    <RelativeLayout 
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:orientation="horizontal"
+	        android:id="@+id/location_scene">
+	        <TextView 
+	            android:id="@+id/new_2"
+	            android:layout_height="wrap_content"
+	            android:layout_width="match_parent"
+	            android:text="位置模式"
+	            android:textStyle="bold"
+	            android:layout_gravity="center_vertical"
+	            android:textSize="24sp"
+	            android:paddingTop="10dp"
+	            android:layout_marginBottom="8dp"/>
+	        
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:layout_below="@id/new_2"
+	            android:text="根据您到达的位置自动更新您的情景模式"
+	            android:textSize="13sp"
+	            android:paddingBottom="10dp"
+	            android:textColor="#53868B"/>
+	
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="48dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/icon_arrow"
+	            android:layout_marginRight="16dp" />
+	    </RelativeLayout>
+	    <ImageView 
+	            android:layout_height="1dp"
+	            android:layout_width="match_parent"
+	            android:src="@drawable/right_divider"/>
+	    
+
+	    
+	    <RelativeLayout 
+	        android:layout_height="wrap_content"
+	        android:layout_width="match_parent"
+	        android:orientation="horizontal"
+	        android:id="@+id/time_scene">
+	        <TextView 
+	            android:id="@+id/new_3"
+	            android:layout_height="wrap_content"
+	            android:layout_width="match_parent"
+	            android:text="时间模式"
+	            android:textStyle="bold"
+	            android:layout_gravity="center_vertical"
+	            android:textSize="24sp"
+	            android:paddingTop="10dp"
+	            android:layout_marginBottom="8dp"/>
+	        
+	        <TextView 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:layout_below="@id/new_3"
+	            android:text="根据您设置时间自动更新您的情景模式"
+	            android:textSize="13sp"
+	            android:paddingBottom="10dp"
+	            android:textColor="#53868B"/>
+	
+	        <ImageView
+	            android:layout_width="wrap_content"
+	            android:layout_height="48dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/icon_arrow"
+	            android:layout_marginRight="16dp" />
+	    </RelativeLayout>
+	    <ImageView 
+	            android:layout_height="1dp"
+	            android:layout_width="match_parent"
+	            android:src="@drawable/right_divider"/>
+    </LinearLayout>
+    
+    
+    
+    <ImageView 
+	   	 android:layout_height="1dp"
+	     android:layout_width="match_parent"
+	     android:src="@drawable/right_divider"
+	     android:layout_above="@id/new_layout"/>        
+    
+</RelativeLayout>

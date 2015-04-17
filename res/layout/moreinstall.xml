@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp" >
+    
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:id="@+id/agreement">
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            	android:text="使用帮助"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_arrow"
+            android:layout_marginRight="16dp" />
+    </RelativeLayout>
+    
+    <ImageView 
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/right_divider"/>
+        
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <TextView 
+            android:id="@+id/aboutus"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="关于我们"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_arrow"
+            android:layout_marginRight="16dp" />
+
+    </RelativeLayout>
+    
+    <ImageView 
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/right_divider"/>
+    
+    <RelativeLayout 
+        android:id="@+id/our_group"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="卡司阵营"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_arrow"
+            android:layout_marginRight="16dp" />
+
+    </RelativeLayout>
+    
+    <ImageView 
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/right_divider"/>
+    
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:orientation="horizontal"
+        android:background="#ffffff">
+        <TextView 
+            android:id="@+id/feedback"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="意见与反馈"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_arrow"
+            android:layout_marginRight="16dp" />
+
+    </RelativeLayout>
+    
+    <ImageView 
+            android:layout_height="1dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/right_divider"/>
+    
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:id="@+id/share">
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+           	android:text="分享软件"
+            android:layout_gravity="center_vertical"
+            android:textSize="20sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon_arrow"
+            android:layout_marginRight="16dp" />
+    </RelativeLayout>
+    
+    <ImageView 
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:src="@drawable/right_divider"/>
+
+</LinearLayout>
